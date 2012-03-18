@@ -8,15 +8,12 @@ void fun2()
 {
 
     THROW(e);
-    printf("some");
 }
 
 void fun1()
 {
 
     fun2();
-
-    printf("some");
 }
 
 int main()
@@ -32,8 +29,6 @@ int main()
     END_TRY;
 
     fun1();
-
-    printf("some");
 
     return 0;
 }
